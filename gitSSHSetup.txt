@@ -1,0 +1,23 @@
+--->create a new repositiory on github check for (git remote)
+
+--->>>  git remote add origin git@github.com:deepak5282786/GitTutorialDemo.git ): git add karo remote origin (origin ka url set karo)
+
+---->>>> git push -u origin master  ): got error not permission to push into this repo
+
+GIT  SSH KEY SETUP
+
+1.ssh-keygen -t ed25519 -C "deepak5282786@gmail.com"
+
+2.eval "$(ssh-agent -s)" (Ensure the ssh-agent is running)
+
+3.ssh-add ~/.ssh/id_ed25519 (Add your SSH private key to the ssh-agent)
+
+4.tail ~/.ssh/id_ed25519.pub (and then copy ssh key to github)
+
+
+
+--->>>  git push -u origin master  ): got error not permission to push into this repo
+
+
+
+
