@@ -21,3 +21,11 @@ GIT  SSH KEY SETUP
 
 
 
+--->>> SettingUp alias for git
+
+
+1.git config --global alias.st status  (use st instead of status)---> git st
+
+2.git config --global alias.ci commit  (use ci instead of commit)---->git ci
+
+3.git config --global alias.unstage 'restore --staged --'  (to unstaged file)--->git unstaged this.txt
